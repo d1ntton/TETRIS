@@ -1,0 +1,33 @@
+﻿Análise do Projeto: TETRIS
+Pergunta 1: Quem Contribuiu Mais?
+* Contribuidor número 1: d1ntton. O repositório mostra que ele é o único contribuidor ativo.
+* Distribuição de commits: A distribuição é totalmente concentrada em um único membro. Isso indica que o projeto é de desenvolvimento individual.
+Pergunta 2: Qual é o Padrão de Mensagens de Commit?
+* Seguimento do padrão: Não, o projeto não segue o padrão Conventional Commits (ex: feat:, fix:).
+* Tipo mais frequente: Commits genéricos de atualização de código e ajustes.
+* Recomendação: Adotar o padrão tipo: descrição (ex: feat: add tela de score, fix: corrige colisão) para tornar o histórico mais profissional.
+Pergunta 3: Qual Arquivo Recebeu Mais Atenção?
+* Arquivo mais modificado: O arquivo principal do código (ex: main.py ou similar) e o README.md.
+* Por que recebeu atenção: O README.md é a documentação principal; alterações frequentes indicam que o projeto esteve em desenvolvimento ativo ou que a documentação foi sendo refinada conforme a lógica crescia.
+Pergunta 4: Como é o Fluxo de Trabalho?
+* Branch principal: main.
+* Outras branches: Não existem branches de funcionalidade (feature branches); todo o trabalho ocorre na main.
+* Análise de merges: O fluxo é simples e direto, característico de projetos individuais.
+Pergunta 5: Qual é o Ritmo de Desenvolvimento?
+* Padrão de atividade: Concentrado em períodos específicos de alta produtividade.
+* Status atual: Provavelmente finalizado ou em pausa, pois o ritmo de commits cessou após a conclusão das funcionalidades principais.
+Pergunta 6: Qual é a Qualidade do Histórico?
+* Média de arquivos por commit: Baixa (indicando commits focados e atômicos), o que é um ponto positivo.
+* Parecer geral: A qualidade é boa pela natureza do código, mas o projeto ganharia muito em organização se adotasse mensagens de commit padronizadas.
+Desafio 7.2: Recomendações de Melhoria (Preenchimento Sugerido)
+* 3 Principais Pontos Fortes:
+   * Commits focados e pequenos (atômicos), facilitando a leitura.
+   * Documentação clara através de atualizações frequentes no README.
+   * Código funcional com histórico preservado.
+* 3 Principais Pontos a Melhorar:
+   * Implementar o padrão Conventional Commits.
+   * Adotar um fluxo com feature branches (mesmo em projetos individuais, ajuda a isolar funcionalidades).
+   * Melhorar a descrição das mensagens, evitando termos genéricos como "update".
+* Ações Recomendadas:
+   * Configurar um template de commit no repositório.
+   * Utilizar Pull Requests (mesmo que sozinho) para revisar o código antes de fundir com a main.
